@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(510,390)" to="(510,460)"/>
+    <wire from="(500,500)" to="(550,500)"/>
+    <wire from="(290,480)" to="(340,480)"/>
+    <wire from="(340,210)" to="(390,210)"/>
+    <wire from="(340,190)" to="(390,190)"/>
+    <wire from="(400,460)" to="(400,480)"/>
+    <wire from="(400,460)" to="(510,460)"/>
+    <wire from="(390,440)" to="(500,440)"/>
+    <wire from="(220,210)" to="(220,230)"/>
+    <wire from="(220,170)" to="(220,190)"/>
+    <wire from="(390,410)" to="(390,440)"/>
+    <wire from="(210,430)" to="(210,460)"/>
+    <wire from="(510,390)" to="(550,390)"/>
+    <wire from="(140,200)" to="(300,200)"/>
+    <wire from="(390,410)" to="(420,410)"/>
+    <wire from="(480,390)" to="(510,390)"/>
+    <wire from="(400,480)" to="(420,480)"/>
+    <wire from="(210,390)" to="(210,430)"/>
+    <wire from="(480,500)" to="(500,500)"/>
+    <wire from="(340,480)" to="(340,520)"/>
+    <wire from="(210,390)" to="(230,390)"/>
+    <wire from="(210,460)" to="(230,460)"/>
+    <wire from="(130,430)" to="(210,430)"/>
+    <wire from="(150,500)" to="(230,500)"/>
+    <wire from="(220,190)" to="(300,190)"/>
+    <wire from="(220,210)" to="(300,210)"/>
+    <wire from="(210,230)" to="(220,230)"/>
+    <wire from="(210,170)" to="(220,170)"/>
+    <wire from="(340,520)" to="(420,520)"/>
+    <wire from="(160,350)" to="(230,350)"/>
+    <wire from="(290,370)" to="(420,370)"/>
+    <wire from="(500,440)" to="(500,500)"/>
+    <comp lib="0" loc="(160,350)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(290,480)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(340,190)" name="S-R Flip-Flop"/>
+    <comp lib="0" loc="(550,390)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(140,200)" name="Clock"/>
+    <comp lib="0" loc="(150,500)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(210,230)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(307,151)" name="Text">
+      <a name="text" val="BDA08"/>
+    </comp>
+    <comp lib="0" loc="(130,430)" name="Clock"/>
+    <comp lib="0" loc="(210,170)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(390,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(290,370)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(390,190)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(309,135)" name="Text">
+      <a name="text" val="Dwij desai"/>
+    </comp>
+    <comp lib="1" loc="(480,500)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(550,500)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(480,390)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(304,165)" name="Text">
+      <a name="text" val="BAtch-14"/>
+    </comp>
+  </circuit>
+</project>
